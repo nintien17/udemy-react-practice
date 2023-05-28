@@ -61,7 +61,8 @@ const TableUsers = (props) => {
         pageRangeDisplayed={5}
         pageCount={totalPages}
         previousLabel="< previous"
-
+        
+        previousClassName="page-item"     
         previousLinkClassName="page-link"
         pageClassName="page-item"
         pageLinkClassName="page-link"
